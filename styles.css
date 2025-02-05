@@ -43,7 +43,6 @@ body {
     100% { transform: translate(-50%, -50%) rotate(-45deg) scale(2); }
 }
 .message {
-    display: none;
     font-size: 24px;
     font-weight: bold;
     color: darkred;
@@ -53,7 +52,6 @@ body {
     transform: translate(-50%, -50%);
 }
 .buttons {
-    display: none;
     margin-top: 20px;
 }
 button {
