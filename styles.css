@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+.heart {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    animation: grow 5s forwards;
+}
+.heart:before,
+.heart:after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+.heart:before {
+    top: -50px;
+    left: 0;
+}
+.heart:after {
+    left: 50px;
+    top: 0;
+}
+@keyframes grow {
+    0% { transform: translate(-50%, -50%) rotate(-45deg) scale(0.5); }
+    100% { transform: translate(-50%, -50%) rotate(-45deg) scale(2); }
+}
+.message {
+    display: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: darkred;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
