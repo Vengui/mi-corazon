@@ -64,7 +64,7 @@ function showMonitos() {
     const monitos = document.createElement('div');
     monitos.style.position = 'absolute';
     monitos.style.left = '50%';
-    monitos.style.top = '42%';
+    monitos.style.top = '45%';
     monitos.style.transform = 'translate(-50%, -50%)';
     monitos.style.zIndex = '1000'; // Asegura que la imagen esté al frente
     monitos.innerHTML = `
