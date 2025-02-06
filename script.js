@@ -9,7 +9,7 @@ const noButton = document.getElementById('noButton');
 const yesButton = document.getElementById('yesButton');
 
 passwordSubmit.addEventListener('click', () => {
-    if (passwordInput.value === 'c') {
+    if (passwordInput.value === 'b') {
         passwordScreen.style.display = 'none';
         mainContent.style.display = 'block';
     } else {
