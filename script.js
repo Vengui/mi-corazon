@@ -26,7 +26,7 @@ countdownContainer.innerHTML = `<div>Estas lista para lo que sigue...</div><div 
 document.body.appendChild(countdownContainer);
 
 passwordSubmit.addEventListener('click', () => {
-    if (passwordInput.value === 'b') {
+    if (passwordInput.value === 'Hamburguesa97') {
         passwordScreen.style.display = 'none';
         mainContent.style.display = 'block';
         nextHeart.style.display = 'block';
